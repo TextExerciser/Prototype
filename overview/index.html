@@ -8,6 +8,11 @@ ic: 7
 		<div class="home-main">
             <div  class="home-item">
 				{% for post in site.posts %}
+			    {% if post.pidd == 33 %}
+				<span>{{ post.excerpt | markdownify }}<span>
+				{% endif %}
+				{% endfor %}
+				{% for post in site.posts %}
 			    {% if post.pidd == 3 %}
 				<span>{{ post.excerpt | markdownify }}<span>
 				{% endif %}
