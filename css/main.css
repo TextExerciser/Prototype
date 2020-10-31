@@ -10,6 +10,7 @@ a { text-decoration: none; color: darkblue;}
 
 img {height: 700px; background: white;}
 img:nth-child(2) {height: 250px;}
+#aov {height: 250px;}
 video, img {display: block; margin: 25px auto;}
 
 h1 { font-size: 3.2em;  }
